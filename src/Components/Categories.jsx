@@ -1,0 +1,88 @@
+import p1 from "../Photos/p1.jpg";
+const Categories = [
+  {
+    id: 1,
+    title: "IPhone 12",
+    price: 900,
+    category: "IPhone",
+    image: require("../Photos/p1.jpg"),
+  },
+  {
+    id: 1,
+    title: "IPhone 13",
+    price: 900,
+    category: "IPhone",
+    image: require("../Photos/p2.jpg"),
+  },
+  {
+    id: 3,
+    title: "Apple AirPot",
+    price: 120,
+    category: "AirPot",
+    image: require("../Photos/a1.jpg"),
+  },
+  {
+    id: 4,
+    title: "AirPot new",
+    price: 100,
+    category: "AirPot",
+    image: require("../Photos/a2.jpg"),
+  },
+  {
+    id: 5,
+    title: "Best One",
+    price: 230,
+    category: "AirPot",
+    image: require("../Photos/a3.jpg"),
+  },
+  {
+    id: 6,
+    title: "HeadPhone",
+    price: 300,
+    category: "HeadPhone",
+    image: require("../Photos/h1.jpg"),
+  },
+  {
+    id: 7,
+    title: "HeadPhone",
+    price: 400,
+    category: "HeadPhone",
+    image: require("../Photos/h2.jpg"),
+  },
+  {
+    id: 8,
+    title: "LapTop",
+    price: 1200,
+    category: "LapTop",
+    image: require("../Photos/L1.jpg"),
+  },
+  {
+    id: 9,
+    title: "LapTop dell",
+    price: 1100,
+    category: "LapTop",
+    image: require("../Photos/L2.jpg"),
+  },
+  {
+    id: 10,
+    title: "Apple Watch",
+    price: 130,
+    category: "Watch",
+    image: require("../Photos/w1.jpg"),
+  },
+  {
+    id: 11,
+    title: "LapTop Bag",
+    price: 80,
+    category: "Bag",
+    image: require("../Photos/b1.jpg"),
+  },
+  {
+    id: 12,
+    title: "Simple Bag",
+    price: 60,
+    category: "Bag",
+    image: require("../Photos/b2.jpg"),
+  },
+];
+export default Categories;
